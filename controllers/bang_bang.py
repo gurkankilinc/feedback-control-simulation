@@ -1,10 +1,3 @@
-"""
-Bang-Bang (On-Off) kontrolcu.
-Sicaklik hedefin altindaysa tam guc, ustundeyse kapat.
-En basit kontrol yontemi - hedef etrafinda salinim yapar.
-"""
-
-
 class BangBangController:
     def __init__(self, setpoint, u_max=1.0, u_min=0.0):
         self.setpoint = setpoint
